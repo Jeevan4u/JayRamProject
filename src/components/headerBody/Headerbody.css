@@ -1,0 +1,52 @@
+.contents-wrapper {
+  margin: auto;
+  color: #FFFFFF;
+  position: relative;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.contents-wrapper #kaal {
+  height: 100%;
+  width: 100%;
+  filter: blur(3px);
+}
+.contents-wrapper .wraps {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.063);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.contents-wrapper .wraps .title {
+  display: grid;
+  place-content: center;
+  font-size: 1.125rem;
+}
+.contents-wrapper .wraps .sub-title {
+  display: grid;
+  place-content: center;
+  font-size: 1.125rem;
+}
+.contents-wrapper .wraps .buttons {
+  display: flex;
+  place-content: center;
+  gap: 20px;
+}
+.contents-wrapper .wraps .buttons button {
+  background-color: transparent;
+  padding: 0.125rem 2rem;
+  border: 2px solid #FC5252;
+  border-radius: 5px;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.contents-wrapper .wraps .buttons button:hover {
+  background-color: #FC5252;
+  border: none;
+  padding: 0.125rem 3rem;
+  transition: 0.3s ease;
+}
+.contents-wrapper .wraps .buttons .watch .icons {
+  font-size: 2rem;
+}/*# sourceMappingURL=Headerbody.css.map */

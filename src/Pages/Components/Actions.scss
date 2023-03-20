@@ -1,0 +1,64 @@
+.Actions{
+    overflow: hidden;
+
+    .img-cont{
+        // background-image: linear-gradient(to bottom, #35352f, #2d2d28, #262622, #1e1e1b, #171715);
+        // border-right: 1px solid white;
+        img{
+            max-width: 100%;
+            object-fit: cover;
+        padding: 1.5rem;
+
+        }
+        padding: 0;
+    }
+    .text-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+// background-image: linear-gradient(to bottom, #35352f, #2d2d28, #262622, #1e1e1b, #171715);
+        color:black;
+
+        h1{
+            letter-spacing: 5px;
+            font-size: 42px;
+            font-weight: 600;
+            
+        }
+
+        h3{
+            font-size: 20px;
+            line-height: 3rem !important;
+        }
+       
+        .play_Progress{
+            .playIcon{
+                height: 60px;
+                width: 70px;
+    
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    max-width: 100%;
+                }
+            }
+    
+            .ProgressBar{
+                display: flex;
+                align-items: center;
+                height: 15px;
+                width: 100%;
+                background-color: #d4d6d6;
+                cursor: pointer;
+    
+                .seek_bar{
+                    height: 10px;
+                    background-color: rgb(0, 0, 0);
+                }
+            }
+        }
+
+    }
+   
+}

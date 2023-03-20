@@ -1,0 +1,33 @@
+.Aboutpage .heading {
+  color: #30647e;
+  letter-spacing: 1.7%;
+}
+.Aboutpage .heading h1 {
+  font-weight: 800;
+}
+.Aboutpage .Maincontents-wrapper .img-container {
+  padding: 3rem 2rem;
+}
+.Aboutpage .Maincontents-wrapper .img-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.Aboutpage .Maincontents-wrapper .desc h1 {
+  font-weight: 700;
+  font-size: 42px;
+}
+.Aboutpage .Maincontents-wrapper .desc p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 32px;
+}
+.Aboutpage .sub {
+  padding: 1rem 4rem;
+}
+.Aboutpage .sub p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 32px;
+}/*# sourceMappingURL=About.css.map */

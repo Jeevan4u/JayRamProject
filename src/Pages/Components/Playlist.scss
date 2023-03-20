@@ -1,0 +1,63 @@
+.PlayList{
+    // background-color: #171715;
+    color: #2a86c47f;
+    padding: 2rem 0;
+    border-top: 2px solid white;
+    
+    .playListContentsWrapper{
+       
+
+        h1 {
+            text-transform: Uppercase;
+            
+        }
+        h5{
+            text-transform: Uppercase;
+            font-weight: 600;
+        }
+        .Songslist{
+            display: flex;
+            padding: 0 2rem;
+            border-bottom: 1px solid black;
+            .index{
+                padding: 1rem;         
+              
+            }
+            .playAudio{
+                width: 20px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .songsContents{
+                padding: 1rem ;
+                
+                h5{
+                    font-size: 22px;
+                }
+                .title{
+                    font-size: 14px;
+                    letter-spacing: 2px;
+                }
+            }
+
+            .playIcon{
+                
+                padding: 1rem;
+            }
+
+            &:hover{
+                background-color:#c0c0ca ;
+                 transition: all .4s;
+            }
+        }
+
+        .Selected{
+            color: #2a86c4;
+            background-color: #c0c0ca;
+        }
+    }
+}

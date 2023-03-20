@@ -1,0 +1,28 @@
+.Main-container {
+  background-color: #f2f2f2;
+}
+.Main-container .img-text-container {
+  position: relative;
+}
+.Main-container .img-text-container .img-container {
+  width: 50%;
+  margin-left: 35%;
+  margin-right: 15%;
+}
+.Main-container .img-text-container .img-container img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Main-container .img-text-container .text-container {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  background-color: #ffffff;
+  width: 40%;
+}
+.Main-container .img-text-container .text-container .Read {
+  color: #FC5252;
+  text-decoration: underline;
+  cursor: pointer;
+}/*# sourceMappingURL=about.css.map */

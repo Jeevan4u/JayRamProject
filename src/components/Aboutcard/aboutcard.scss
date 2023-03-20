@@ -1,0 +1,20 @@
+$color-primary-pink : #FFA3A3;
+$color-primary-black : #222222;
+$color-primary-red: #FC5252;
+$color-primary-blue : #381DDB;
+$color-primary-white : #FFFFFF;
+
+.background{
+    width: 70%;
+    margin: auto;
+   
+    .contents{
+       
+
+        .red{
+            color: $color-primary-red;
+            font-size: 1.125rem;
+            font-weight: 500;
+        }
+    }
+}

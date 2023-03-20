@@ -1,0 +1,50 @@
+.Actions {
+  overflow: hidden;
+}
+.Actions .img-cont {
+  padding: 0;
+}
+.Actions .img-cont img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1.5rem;
+}
+.Actions .text-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  color: black;
+}
+.Actions .text-cont h1 {
+  letter-spacing: 5px;
+  font-size: 42px;
+  font-weight: 600;
+}
+.Actions .text-cont h3 {
+  font-size: 20px;
+  line-height: 3rem !important;
+}
+.Actions .text-cont .play_Progress .playIcon {
+  height: 60px;
+  width: 70px;
+}
+.Actions .text-cont .play_Progress .playIcon img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  max-width: 100%;
+}
+.Actions .text-cont .play_Progress .ProgressBar {
+  display: flex;
+  align-items: center;
+  height: 15px;
+  width: 100%;
+  background-color: #d4d6d6;
+  cursor: pointer;
+}
+.Actions .text-cont .play_Progress .ProgressBar .seek_bar {
+  height: 10px;
+  background-color: rgb(0, 0, 0);
+}/*# sourceMappingURL=Actions.css.map */

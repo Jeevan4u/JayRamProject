@@ -1,0 +1,50 @@
+.PlayList {
+  color: rgba(42, 134, 196, 0.4980392157);
+  padding: 2rem 0;
+  border-top: 2px solid white;
+}
+.PlayList .playListContentsWrapper h1 {
+  text-transform: Uppercase;
+}
+.PlayList .playListContentsWrapper h5 {
+  text-transform: Uppercase;
+  font-weight: 600;
+}
+.PlayList .playListContentsWrapper .Songslist {
+  display: flex;
+  padding: 0 2rem;
+  border-bottom: 1px solid black;
+}
+.PlayList .playListContentsWrapper .Songslist .index {
+  padding: 1rem;
+}
+.PlayList .playListContentsWrapper .Songslist .playAudio {
+  width: 20px;
+}
+.PlayList .playListContentsWrapper .Songslist .playAudio img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.PlayList .playListContentsWrapper .Songslist .songsContents {
+  padding: 1rem;
+}
+.PlayList .playListContentsWrapper .Songslist .songsContents h5 {
+  font-size: 22px;
+}
+.PlayList .playListContentsWrapper .Songslist .songsContents .title {
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.PlayList .playListContentsWrapper .Songslist .playIcon {
+  padding: 1rem;
+}
+.PlayList .playListContentsWrapper .Songslist:hover {
+  background-color: #c0c0ca;
+  transition: all 0.4s;
+}
+.PlayList .playListContentsWrapper .Selected {
+  color: #2a86c4;
+  background-color: #c0c0ca;
+}/*# sourceMappingURL=Playlist.css.map */

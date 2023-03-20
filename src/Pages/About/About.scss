@@ -1,0 +1,45 @@
+.Aboutpage{
+
+    .heading{
+        color: #30647e;
+        letter-spacing: 1.7%;
+        
+        h1{
+            font-weight: 800;
+        }
+    }
+
+    .Maincontents-wrapper{
+        
+        .img-container{
+            padding: 3rem 2rem;
+            img{
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+            }
+          
+        }
+
+        .desc{
+            h1{
+                font-weight: 700;
+                font-size: 42px;
+            }
+
+            p{
+                font-weight: 600;
+                letter-spacing: 1px;
+                line-height: 32px;
+            }
+        }
+    }
+    .sub{
+        padding: 1rem 4rem;
+        p{
+            font-weight: 600;
+            letter-spacing: 1px;
+            line-height: 32px;
+        }
+    }
+}

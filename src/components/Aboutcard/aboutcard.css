@@ -1,0 +1,9 @@
+.background {
+  width: 70%;
+  margin: auto;
+}
+.background .contents .red {
+  color: #FC5252;
+  font-size: 1.125rem;
+  font-weight: 500;
+}/*# sourceMappingURL=aboutcard.css.map */

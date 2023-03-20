@@ -1,0 +1,52 @@
+.event-scheduel-wrapper {
+  width: 80%;
+  margin: auto;
+}
+.event-scheduel-wrapper .days .row .dayslist {
+  position: relative;
+  cursor: pointer;
+}
+.event-scheduel-wrapper .days .row .dayslist::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 80%;
+  background-color: #381DDB;
+  bottom: 0;
+}
+.event-scheduel-wrapper .days .row .dayslist h3 {
+  transition: all 0.3s ease-in-out;
+  color: #381DDB;
+  font-weight: 700;
+}
+.event-scheduel-wrapper .days .row .dayslist p {
+  color: rgba(57, 29, 219, 0.5607843137);
+  font-weight: 700;
+}
+.event-scheduel-wrapper .days .row .dayslist.active h3 {
+  font-size: 3rem;
+}
+.event-scheduel-wrapper .events .img-cont {
+  height: 70px;
+  width: 70px;
+}
+.event-scheduel-wrapper .events .img-cont img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 3rem;
+}
+.event-scheduel-wrapper .events .container-fix {
+  padding: 2rem 1rem;
+}
+
+.backgrd {
+  background: linear-gradient(180deg, rgba(56, 29, 219, 0.05) 0%, rgba(56, 29, 219, 0) 100%);
+}
+
+.backgrd-table {
+  background-color: rgba(57, 29, 219, 0.2274509804);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}/*# sourceMappingURL=event.css.map */

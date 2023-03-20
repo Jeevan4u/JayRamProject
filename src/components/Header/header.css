@@ -1,0 +1,81 @@
+*, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Raleway", sans-serif;
+}
+
+.header {
+  position: absolute;
+  z-index: 999;
+}
+.header .navbar {
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+.header .navbar .nav-logo {
+  height: 100%;
+  max-width: 100px;
+}
+.header .navbar .nav-logo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+}
+.header .navbar .nav-list {
+  margin-bottom: 0;
+}
+.header .navbar .nav-list li {
+  list-style: none;
+}
+.header .navbar .nav-list li a {
+  position: relative;
+  color: #FFFFFF;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 12px;
+  /* identical to box height, or 143% */
+  text-transform: uppercase;
+}
+.header .navbar .nav-list li a::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+}
+.header .navbar .nav-list li a:hover::before {
+  width: 60%;
+  transition: all 0.5s ease-in-out;
+}
+.header .navbar .Contact {
+  position: relative;
+  color: #FFFFFF;
+  font-family: "Montserrat";
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 12px;
+  text-transform: uppercase;
+}
+.header .navbar .Contact::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 0%;
+  bottom: 50%;
+  left: 0;
+  transform: translateX(50%, -50%);
+  transition: 0.3s ease;
+}
+.header .navbar .Contact:hover::after {
+  width: 100%;
+  background-color: #FFFFFF;
+  transition: 0.3s ease-in-out;
+}/*# sourceMappingURL=header.css.map */
